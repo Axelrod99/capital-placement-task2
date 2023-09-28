@@ -62,7 +62,7 @@ const Candidates = () => {
           {open ? (
             ""
           ) : (
-            <div className="bg-white rounded-b-[14px] w-full h-72 overflow-y-scroll z-[999] absolute top-[34px] shadow shadow-[#1d4ed80d] border-t">
+            <div className="bg-white rounded-b-[14px] w-full h-[360px] overflow-y-scroll z-[999] absolute top-[34px] shadow shadow-[#1d4ed80d] border-t">
               {OpportunityArray.map(({ name, num }) => (
                 <div className="flex justify-between p-[16px] border-b border-[#1d4ed80d]">
                   <p>{name}</p>
@@ -96,7 +96,7 @@ const Candidates = () => {
         </div>
       </div>
 
-      <div className="pt-[32px]">
+      <div className="pt-[32px] pb-5">
         <div className="w-full bg-white shadow shadow-[#bdc5d9a8] rounded-[16px]">
           <div className="flex border-b justify-between py-[16px] px-[16px]">
             <div className="flex gap-[32px]">
